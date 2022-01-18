@@ -68,6 +68,10 @@ generated Felzenzwalb/image TFRecord dataset previously generated. Additionally,
 to use accelerators, users will need to install the correct version of jaxlib
 with CUDA support.
 
+## Pre-trained checkpoints
+
+For convenience, we're providing an ImageNet-pretrained [ResNet-50](https://storage.googleapis.com/dm-detcon/resnet50.npy) and [ResNet-200](https://storage.googleapis.com/dm-detcon/resnet200.npy) pre-trained using DetCon. A Colab demonstrating how to load the model weights and run a forward pass on the loaded model on a sample image is linked [here](https://colab.research.google.com/drive/1Gd3sxOJXENo74iPz5TlywEcsfXX1gB8W?usp=sharing).
+
 ## Citing this work
 
 If you use this code in your work, please consider referencing our work:
