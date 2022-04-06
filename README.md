@@ -70,7 +70,7 @@ with CUDA support.
 
 ## Pre-trained checkpoints
 
-For convenience, we're providing an ImageNet-pretrained [ResNet-50](https://storage.googleapis.com/dm-detcon/resnet50_detcon_b_imagenet_1k.npy) and [ResNet-200](https://storage.googleapis.com/dm-detcon/resnet200_detcon_b_imagenet_1k.npy) pre-trained using DetCon. We also provide a number of ResNet-50 COCO-pretrained checkpoints available in the same [GCS bucket]((https://storage.googleapis.com/dm-detcon/). A Colab demonstrating how to load the model weights and run a forward pass on the loaded model on a sample image is linked [here](https://colab.research.google.com/drive/1Gd3sxOJXENo74iPz5TlywEcsfXX1gB8W?usp=sharing).
+For convenience, we're providing an ImageNet-pretrained [ResNet-50](https://storage.googleapis.com/dm-detcon/resnet50_detcon_b_imagenet_1k.npy) and [ResNet-200](https://storage.googleapis.com/dm-detcon/resnet200_detcon_b_imagenet_1k.npy) pre-trained using DetCon. We also provide a number of ResNet-50 COCO-pretrained checkpoints available in the same [GCS bucket](https://storage.googleapis.com/dm-detcon/). A Colab demonstrating how to load the model weights and run a forward pass on the loaded model on a sample image is linked [here](https://colab.research.google.com/drive/1Gd3sxOJXENo74iPz5TlywEcsfXX1gB8W?usp=sharing).
 
 ## Citing this work
 
