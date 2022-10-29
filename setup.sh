@@ -24,5 +24,5 @@ pushd "$SCRIPT_DIR"/.. > /dev/null
 
 python3 -m venv /tmp/detcon_venv
 source /tmp/detcon_venv/bin/activate
-pip3 install --upgrade pip setuptools wheel
-pip3 install -r detcon/requirements.txt
+pip3 install --require-hashes --upgrade pip setuptools wheel
+pip3 install --require-hashes -r detcon/requirements.txt
